@@ -1,0 +1,32 @@
+{
+  "name": "agentic-football-tiktok-agent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run lint && npm run typecheck"
+  },
+  "dependencies": {
+    "apify-client": "^2.7.1",
+    "@tanstack/react-query": "^5.59.2",
+    "@upstash/redis": "^1.28.3",
+    "axios": "^1.7.4",
+    "date-fns": "^3.6.0",
+    "next": "14.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5.4.5"
+  }
+}
